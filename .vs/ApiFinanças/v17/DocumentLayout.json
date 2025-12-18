@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\apifinan\u00E7asproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\apifinan\u00E7asproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\services\\financialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\services\\financialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\services\\ifinancialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\services\\ifinancialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\dtos\\createtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\dtos\\createtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\dtos\\createpersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\dtos\\createpersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\controllers\\financialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\controllers\\financialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|c:\\users\\breno\\source\\repos\\apifinan\u00E7as\\apifinan\u00E7asproject\\apifinan\u00E7asproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12CC6163-A9AF-4EA7-9F9E-1E6090E74BD8}|ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj|solutionrelative:apifinan\u00E7asproject\\apifinan\u00E7asproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\.gitignore",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\.gitignore",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\.gitignore",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-18T16:15:28.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreatePersonDto.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Dtos\\CreatePersonDto.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Dtos\\CreatePersonDto.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Dtos\\CreatePersonDto.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Dtos\\CreatePersonDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T21:44:47.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Dtos\\CreateTransactionDto.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Dtos\\CreateTransactionDto.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Dtos\\CreateTransactionDto.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Dtos\\CreateTransactionDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:28:45.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Exceptions\\DomainException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:40:40.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Models\\Category.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:24:53.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IFinancialService.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Services\\IFinancialService.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Services\\IFinancialService.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Services\\IFinancialService.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Services\\IFinancialService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:42:01.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\docker-compose.yml",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\docker-compose.yml",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-15T20:11:44.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Program.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Program.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Program.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwDMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:18:45.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\appsettings.json",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T18:18:42.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiFinan\u00E7asProject.http",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.http",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.http",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.http",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-18T15:39:15.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:24:54.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FinancialController.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Controllers\\FinancialController.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Controllers\\FinancialController.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Controllers\\FinancialController.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Controllers\\FinancialController.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAYwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:53:04.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinancialService.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Services\\FinancialService.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Services\\FinancialService.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Services\\FinancialService.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Services\\FinancialService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwKwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:47:49.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Models\\Transaction.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Models\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:21:11.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T15:31:41.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\Models\\Person.cs",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:21:01.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiFinan\u00E7asProject.csproj",
+              "DocumentMoniker": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj",
+              "RelativeDocumentMoniker": "ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj",
+              "ToolTip": "C:\\Users\\breno\\source\\repos\\ApiFinan\u00E7as\\ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj",
+              "RelativeToolTip": "ApiFinan\u00E7asProject\\ApiFinan\u00E7asProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T21:25:05.207Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
