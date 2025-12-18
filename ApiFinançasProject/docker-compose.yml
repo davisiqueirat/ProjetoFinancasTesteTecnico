@@ -13,4 +13,4 @@ services:
       - sqlvolume:/var/opt/mssql
 
 volumes:
-         sqlvolume:c
+         sqlvolume:
