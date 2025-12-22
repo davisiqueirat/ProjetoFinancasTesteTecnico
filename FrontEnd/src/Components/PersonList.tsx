@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { AxiosError } from 'axios'; // <--- Importante para tipar o erro
+import { AxiosError } from 'axios'; //  para tipar o erro
 import { api } from '../Services/api';
 import type { Person } from '../Types';
 
@@ -93,7 +93,6 @@ export function PersonList() {
                                     lineHeight: 1
                                 }}
                                 title="Excluir pessoa"
-                                // Pequeno efeito hover inline
                                 onMouseOver={(e) => e.currentTarget.style.color = '#e74c3c'}
                                 onMouseOut={(e) => e.currentTarget.style.color = '#ccc'}
                             >
