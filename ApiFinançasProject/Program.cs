@@ -1,12 +1,12 @@
-using ApiFinanÁasProject.Data;
-using ApiFinanÁasProject.Services;
+using ApiFinan√ßasProject.Data;
+using ApiFinan√ßasProject.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
-// --- SERVI«OS ---
+// --- SERVI√áOS ---
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -22,7 +22,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "Controle de Gastos API",
-        Description = "API desenvolvida para teste tÈcnico usando .NET 8 e React."
+        Description = "API desenvolvida para teste t√©cnico usando .NET 8 e React."
     });
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
@@ -32,33 +32,34 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// --- INJE«√O DE DEPEND NCIA ---
+// --- INJE√á√ÉO DE DEPEND√äNCIA ---
 builder.Services.AddScoped<IFinancialService, FinancialService>();
 
 // --- CORS ---
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReact",
-        b => b.WithOrigins("http://localhost:5173") // Porta padr„o do Vite
+        b => b.WithOrigins("http://localhost:5173") // Porta padr√£o do Vite
               .AllowAnyMethod()
               .AllowAnyHeader());
 });
 
 var app = builder.Build();
 
-// --- PIPELINE DE EXECU«√O ---
+// --- PIPELINE DE EXECU√á√ÉO ---
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.EnsureCreated();
 }
 
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(options =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Controle de Gastos API v1");
 
+    options.RoutePrefix = string.Empty;
+});
 app.UseCors("AllowReact");
 
 app.UseAuthorization();
