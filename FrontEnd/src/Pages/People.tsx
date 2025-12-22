@@ -21,7 +21,7 @@ export function People() {
             <hr style={{ margin: '20px 0', border: '0', borderTop: '1px solid #ddd' }} />
 
             {/* 2. A Lista */}
-            {/* A prop 'key' faz a mágica: se mudar, a lista recarrega */}
+            {/* A prop 'key' se mudar, a lista recarrega */}
             <PersonList key={updateKey} />
         </div>
     );
