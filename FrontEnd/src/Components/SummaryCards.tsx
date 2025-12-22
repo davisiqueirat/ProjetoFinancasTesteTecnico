@@ -1,10 +1,9 @@
-// src/components/SummaryCards.tsx
 import { useEffect, useState, useMemo } from 'react'; // <--- Adicione useMemo
 import { api } from '../Services/api';
 import type { Transaction, Person } from '../Types';
 
 export function SummaryCards() {
-    // Dados brutos (Isso sim é Estado)
+    // Dados brutos 
     const [allTransactions, setAllTransactions] = useState<Transaction[]>([]);
     const [people, setPeople] = useState<Person[]>([]);
     const [selectedPersonId, setSelectedPersonId] = useState('');
@@ -26,7 +25,7 @@ export function SummaryCards() {
         loadData();
     }, []);
 
-    // A MÁGICA DO USEMEMO (Substitui o useEffect problemático)
+    //  USEMEMO (Substitui o useEffect problemático)
     // O React memoriza o resultado e só recalcula se 'allTransactions' ou 'selectedPersonId' mudarem.
     const totals = useMemo(() => {
         // 1. Filtra
@@ -67,7 +66,6 @@ export function SummaryCards() {
 
     return (
         <div>
-            {/* Filtro Bonito com classes CSS */}
             <div style={{ marginBottom: '20px' }}>
                 <div className="filter-container" style={{ display: 'inline-flex' }}>
                     <label className="filter-label">Filtrar Resumo:</label>
