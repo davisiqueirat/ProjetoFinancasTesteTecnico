@@ -29,7 +29,7 @@ export function CategoryReport() {
     useEffect(() => {
         async function loadData() {
             try {
-                // Agora buscamos Pessoas também
+                // busca Pessoas também
                 const [catResponse, transResponse, peopleResponse] = await Promise.all([
                     api.get('/categories'),
                     api.get('/transactions'),
