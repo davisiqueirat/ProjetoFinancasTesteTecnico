@@ -17,7 +17,7 @@ export function TransactionForm({ onSuccess }: Props) {
     const [description, setDescription] = useState('');
     const [value, setValue] = useState('');
     
-    // ESTADO DO TIPO: Agora é uma String 'Expense' (Padrão)
+    // ESTADO DO TIPO: 
     const [type, setType] = useState<TransactionType>('Expense');
     
     const [personId, setPersonId] = useState('');
@@ -58,8 +58,8 @@ export function TransactionForm({ onSuccess }: Props) {
             // Montando o objeto para enviar (Payload)
             const payload: CreateTransactionDto = {
                 description,
-                value: Number(value), // Valor continua sendo número
-                type: type,           // Envia "Income" ou "Expense" (String)
+                value: Number(value), 
+                type: type,          
                 personId: Number(personId),
                 categoryId: Number(categoryId)
             };
