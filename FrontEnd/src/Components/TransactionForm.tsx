@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { AxiosError } from 'axios';
 import { api } from '../Services/api';
-// Certifique-se de que TransactionType no Types.ts é: export type TransactionType = 'Income' | 'Expense';
 import type { Person, Category, CreateTransactionDto, TransactionType } from '../Types';
 
 interface Props {
