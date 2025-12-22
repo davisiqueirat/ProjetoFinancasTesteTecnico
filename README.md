@@ -28,6 +28,9 @@ cd ApiFinançasProject
 docker-compose up -d
 ```
 3. Depois é so rodar normalmente o BackEnd.
+```bash
+dotnet run
+```
 
 ## Frontend:
 Na pasta Frontend, para instalar as dependencias do projeto (node modules) 
