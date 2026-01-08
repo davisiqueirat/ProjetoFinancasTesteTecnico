@@ -21,15 +21,15 @@ export function CategoryReport() {
     const [loading, setLoading] = useState(true);
 
 
-    /**
+    /*
      * Carregamento inicial de dados.
      * Utiliza Promise.all para disparar as requisições em paralelo,
-     * otimizando o tempo de carga e evitando "waterfall" de requests.
+     * otimizando o tempo de carga
      */
     useEffect(() => {
         async function loadData() {
             try {
-                // busca Pessoas também
+                // Busca Pessoas também
                 const [catResponse, transResponse, peopleResponse] = await Promise.all([
                     api.get('/categories'),
                     api.get('/transactions'),
@@ -49,17 +49,17 @@ export function CategoryReport() {
 
     /**
      * Lógica Principal de Processamento.
-     * * 1. Filtra as transações baseadas na pessoa selecionada.
-     * 2. Mapeia cada categoria existente.
-     * 3. Agrega os valores (reduce) calculando Receita, Despesa e Saldo por categoria.
-     * * Memoizado para evitar recálculos pesados em re-renderizações simples.
+     *  Filtra as transações baseadas na pessoa selecionada.
+     *  Mapeia cada categoria existente.
+     *  Agrega os valores (reduce) calculando Receita, Despesa e Saldo por categoria.
+     * *Memoizado para evitar recálculos pesados em re-renderizações simples.
      */    const reportData = useMemo(() => {
-            // Passo 1: Filtragem prévia
+            //  Filtragem prévia
             const filteredTransactions = selectedPersonId
             ? transactions.filter(t => t.personId === Number(selectedPersonId))
             : transactions;
 
-        // Passo 2 e 3: Agrupamento e Cálculo
+        //  Agrupamento e Cálculo
         const summary = categories.map(cat => {
             // Pega só as transações dessa categoria (dentro das já filtradas por pessoa)
             const catTransactions = filteredTransactions.filter(t => t.categoryId === cat.id);
@@ -85,7 +85,7 @@ export function CategoryReport() {
         return summary;
     }, [categories, transactions, selectedPersonId]); // Recalcula se mudar a pessoa
 
-    /**
+    /*
      * Cálculo do Totalizador Geral (Rodapé da Tabela).
      * Soma os resultados já processados em 'reportData'.
      */
@@ -107,7 +107,7 @@ export function CategoryReport() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
                 <h2 style={{ color: '#333', margin: 0 }}>Categoria</h2>
                 
-                {/* O Filtro de Pessoa Agora Está Aqui */}
+                {/* Filtro de Pessoa  */}
                 <select 
                     className="custom-select"
                     value={selectedPersonId}
