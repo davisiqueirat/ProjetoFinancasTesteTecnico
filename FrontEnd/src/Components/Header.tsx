@@ -28,7 +28,7 @@ export function Header() {
     };
 
     const navLinkStyle = {
-        color: '#ecf0f1',
+        color: '#ecf0f1', 
         textDecoration: 'none',
         fontWeight: 500,
         fontSize: '1rem',
@@ -39,14 +39,16 @@ export function Header() {
         <header style={headerStyle}>
             <div style={containerStyle}>
                 
+                
                 <Link to="/" style={logoStyle}>
                     FinançasApp
                 </Link>
-
+  
                 <nav style={{ display: 'flex', gap: '20px' }}>
                     <Link to="/" style={navLinkStyle}>Dashboard</Link>
                     <Link to="/pessoas" style={navLinkStyle}>Pessoas</Link>
                     <Link to="/transacoes" style={navLinkStyle}>Transações</Link>
+                    <Link to="/categorias" style={navLinkStyle}>Categorias</Link>
                 </nav>
             </div>
         </header>
